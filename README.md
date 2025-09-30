@@ -20,9 +20,9 @@ A deep learning project that performs real-time emotion detection using a CNN mo
 
 ## Installation
 
-pip install opencv-python
-pip install tensorflow
-pip install numpy
+- pip install opencv-python
+- pip install tensorflow
+- pip install numpy
 
 ## Usage
 
@@ -68,4 +68,5 @@ The model is trained using:
 - Adam optimizer with learning rate decay
 - Categorical crossentropy loss function
 - 50 epochs (configurable)
+
 
