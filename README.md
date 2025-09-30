@@ -23,6 +23,13 @@ A deep learning project that performs real-time emotion detection using a CNN mo
 - pip install opencv-python
 - pip install tensorflow
 - pip install numpy
+  
+### How to Get the Data
+1. **Kaggle Dataset**
+   - Visit [Kaggle FER2013](https://www.kaggle.com/datasets/msambare/fer2013)
+   - Download the dataset after creating a Kaggle account
+   - Extract the downloaded file to `data/fer2013` in your project directory
+   - Add the path of data(train,test) in train_model.py
 
 ## Usage
 
@@ -68,6 +75,14 @@ The model is trained using:
 - Adam optimizer with learning rate decay
 - Categorical crossentropy loss function
 - 50 epochs (configurable)
+## Training Data
+
+### Dataset
+This project uses the FER2013 dataset (Facial Expression Recognition 2013) which contains:
+- 35,887 grayscale images
+- 48x48 pixel resolution
+- 7 emotion categories
+
 
 
 
