@@ -5,10 +5,10 @@ A deep learning project that performs real-time emotion detection using a CNN mo
 ## Project Structure
 
 
-├── detect_emotion.py          # Real-time emotion detection script
-├── emotion_model.h5          # Trained CNN model
-├── haarcascade_frontalface_default.xml    # Face detection classifier
-└── train_model.py           # Model training script
+- ├── detect_emotion.py          # Real-time emotion detection script
+- ├── emotion_model.h5          # Trained CNN model
+- ├── haarcascade_frontalface_default.xml    # Face detection classifier
+- └── train_model.py           # Model training script
 
 
 ## Requirements
@@ -68,5 +68,6 @@ The model is trained using:
 - Adam optimizer with learning rate decay
 - Categorical crossentropy loss function
 - 50 epochs (configurable)
+
 
 
